@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-image: url("../image/hacker.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+.number{
+    width:124px;
+    height: 80px;
+    margin:2px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius:30px;
+    animation: anima 2s infinite;
+}
+.delete{
+    width:185px;
+    height: 80px;
+    margin:2px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius:30px;
+}
+.numbers{
+    width: 650px;
+    height: 70px;
+    font-size: 40px;
+    border-radius:20px;
+}  
+.calculator{	
+    background-color: rgb(78, 62, 62);
+    height: 825px;
+    width:700px;
+    padding:20px;
+    display: block;
+    margin: auto;
+    box-shadow:  10px 10px 50px rgb(197, 141, 141),-10px 10px 50px rgb(205, 167, 167);
+}
+.text{
+    font-size:18px;
+    font-weight: bold;
+    color: rgb(9, 9, 9);  
+    width: 656px;
+    margin-left: 4px;
+}
+p{
+    margin:0px;
+}
+.input{
+    font-size:90px;
+    height: 150px;
+    text-align: center;
+    background-color: rgb(227, 164, 164);
+    border-bottom: rgb(0, 0, 0);
+}
+::placeholder
+{
+    color: rgb(14, 14, 14);
+    text-align: center;
+    font-size:90px;
+}
+@keyframes anima {
+    0%{font-size:40px;}
+    25%{font-size:45px;}
+    50%{font-size:40px;}
+    75%{font-size:45px;}
+    100%{font-size:40px;}
+}
+.convert
+{
+    width: 150px;
+    height: 80px;
+    font-weight: bold;
+    border-radius:20px;
+    color: rgb(0, 0, 0);
+}
+.one{
+    text-shadow: 2px 5px rgb(12, 0, 0);
+}
+.zero{
+    width:250px;
+    height: 80px;
+    margin:2px;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius:30px;
+    background: rgb(41, 40, 40);
+    color: black;
+}
